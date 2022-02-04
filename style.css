@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&family=Roboto&display=swap');
+:root {
+  --text-base: #afb6c2;
+  --text-title: #d4ccb6;
+  --background: #191816;
+  --form-background: #24221f;
+  --primary-color: #ffc632;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+  font-family: 'Roboto', sans-serif;
+}
+
+body {
+  width: 100%;
+  background-color: var(--background);
+}
+.logo {
+  position: absolute;
+  left: 40px;
+  top: 40px;
+}
+.container {
+  display: flex;
+}
+.text {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.form {
+  width: 572px;
+  height: 512px;
+  background-color: var(--form-background);
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.titulo h2 {
+  font-family: Poppins;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 36px;
+}
+.titulo p {
+  font-family: Roboto;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+}
+label {
+  display: block;
+}
+input{
+  border: 2px solid white;
+  border-radius: 5px;
+}
+.linha{
+  padding: 10px;
+}
+#email {
+  background: url(images/mail.svg) no-repeat scroll 7px 7px;
+  padding: 10px 0 10px 30px;
+  width: 335px;
+}
+#password {
+  background: url(images/lock.svg) no-repeat scroll 7px 7px;
+  padding: 10px 0 10px 30px;
+  width: 335px;
+}
+.space {
+  display: flex;
+  justify-content: space-between;
+}
+.image {
+  width: 50%;
+}
+.image img {
+  width: 100%;
+}
+button {
+  width: 334px;
+  height: 51px;
+  background-color: var(--primary-color);
+
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 27px;
+  text-transform: uppercase;
+}
+.color {
+  color: var(--primary-color);
+}
